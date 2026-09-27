@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     font-family="Andale Mono, AndaleMono, Consolas, monospace"
+     width="975px" height="650px" font-size="18px">
+
+  <style>
+    .keyColor {
+      fill: rgb(90, 172, 248);
+      font-weight: bold;
+    }
+
+    .valueColor {
+      fill: rgb(255, 255, 255);
+    }
+
+    .commentColor {
+      fill: #8b949e;
+    }
+
+    .header {
+      fill: rgb(255, 255, 255);
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    .link {
+      fill: #58a6ff;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+
+    text, tspan {
+      white-space: pre-wrap;
+    }
+  </style>
+
+  <!-- Background -->
+  <rect width="975px"
+        height="650px"
+        fill="#151515"
+        rx="15"/>
+
+  <!-- Header -->
+  <text x="30" y="50" class="header">
+    Ansh's Profile
+  </text>
+
+  <!-- Profile Information -->
+  <text x="30" y="90" fill="#c9d1d9">
+
+    <tspan x="30" y="90">AnshGohel</tspan>
+
+    <tspan x="30" y="110">
+      ------------------
+    </tspan>
+
+    <!-- System -->
+    <tspan x="30" y="140" class="keyColor">
+      OS
+    </tspan>
+    <tspan class="valueColor">
+      : macOS, Windows 11, Android
+    </tspan>
+
+    <tspan x="30" y="170" class="keyColor">
+      Uptime
+    </tspan>
+    <tspan class="valueColor">
+      : Always learning &amp; building 🚀
+    </tspan>
+
+    <tspan x="30" y="200" class="keyColor">
+      Host
+    </tspan>
+    <tspan class="valueColor">
+      : Government Engineering College, Rajkot
+    </tspan>
+    <tspan class="commentColor">
+      #GEC Rajkot
+    </tspan>
+
+    <tspan x="30" y="230" class="keyColor">
+      Kernel
+    </tspan>
+    <tspan class="valueColor">
+      : Computer Engineering
+    </tspan>
+    <tspan class="commentColor">
+      #CE
+    </tspan>
+
+    <tspan x="30" y="260" class="keyColor">
+      IDE
+    </tspan>
+    <tspan class="valueColor">
+      : VS Code, IntelliJ IDEA, Android Studio
+    </tspan>
+
+
+    <!-- Programming -->
+    <tspan x="30" y="300" class="keyColor">
+      Languages.Programming
+    </tspan>
+    <tspan class="valueColor">
+      : Python, Java, JavaScript, C
+    </tspan>
+
+    <tspan x="30" y="330" class="keyColor">
+      Languages.Web
+    </tspan>
+    <tspan class="valueColor">
+      : HTML, CSS, JavaScript, React, Node.js
+    </tspan>
+
+    <tspan x="30" y="360" class="keyColor">
+      Languages.Database
+    </tspan>
+    <tspan class="valueColor">
+      : SQL, MongoDB, Firebase
+    </tspan>
+
+    <tspan x="30" y="390" class="keyColor">
+      Languages.Data
+    </tspan>
+    <tspan class="valueColor">
+      : Python, NumPy, Pandas, Matplotlib, Scikit-learn
+    </tspan>
+
+
+    <!-- Interests -->
+    <tspan x="30" y="430" class="keyColor">
+      Interests.Software
+    </tspan>
+    <tspan class="valueColor">
+      : Full Stack Development, AI/ML
+    </tspan>
+
+    <tspan x="30" y="460" class="keyColor">
+      Interests.Data
+    </tspan>
+    <tspan class="valueColor">
+      : Data Science, Machine Learning
+    </tspan>
+
+
+    <!-- Contact -->
+    <tspan x="30" y="500" class="keyColor">
+      Contact
+    </tspan>
+    <tspan>
+      :
+    </tspan>
+
+    <tspan x="30" y="520">
+      ------------------
+    </tspan>
+
+  </text>
+
+
+  <!-- Email -->
+  <a xlink:href="mailto:YOUR_EMAIL@gmail.com"
+     target="_blank">
+
+    <text x="30" y="570">
+
+      <tspan class="keyColor">
+        Email
+      </tspan>
+
+      <tspan class="valueColor">
+        → YOUR_EMAIL@gmail.com
+      </tspan>
+
+    </text>
+
+  </a>
+
+
+  <!-- LinkedIn -->
+  <a xlink:href="YOUR_LINKEDIN_URL"
+     target="_blank">
+
+    <text x="30" y="600">
+
+      <tspan class="keyColor">
+        LinkedIn
+      </tspan>
+
+      <tspan class="link">
+        → Ansh Gohel
+      </tspan>
+
+    </text>
+
+  </a>
+
+
+  <!-- GitHub -->
+  <a xlink:href="https://github.com/AnshGohel"
+     target="_blank">
+
+    <text x="30" y="630">
+
+      <tspan class="keyColor">
+        GitHub
+      </tspan>
+
+      <tspan class="link">
+        → github.com/AnshGohel
+      </tspan>
+
+    </text>
+
+  </a>
+
+</svg>
